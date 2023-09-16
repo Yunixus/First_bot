@@ -4,13 +4,9 @@ import os.path
 import time
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from uploader import pyrogram_client, send_message_to_group
-from telebot import TeleBot
 from logging.handlers import TimedRotatingFileHandler
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-import win32serviceutil
-import win32service
-import win32event
-import servicemanager
+
 
 
 if not os.path.exists("logs"):
