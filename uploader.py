@@ -19,7 +19,6 @@ api_id = 0
 api_hash = " "
 pyrogram_client = Client(api_id=api_id, api_hash=api_hash, name=" ")
 chat_id= 0
-network_members = []
 
 
 @pyrogram_client.on_message(filters=filters.channel)
